@@ -7,6 +7,9 @@ public class BonusService {
             bonus = limit;
         }
         return bonus;
+        // long actual = service.calculate(amount, registered);
+        //        assertEquals(expected, actual);
+
     }
 }
 
