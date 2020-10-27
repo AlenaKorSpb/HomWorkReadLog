@@ -4,9 +4,9 @@ public class Main {
 
         long amount = 1000_60;
         boolean registered = true;
-       // long actual = service.calculate(amount, registered);
-        service.calculate(amount, registered);
-      //System.out.println("Ожидаемое значение 500, получили: " + actual);
+        long actual = service.calculate(amount, registered);
+        //service.calculate(amount, registered);
+      System.out.println("Ожидаемое значение 500, получили: " + actual);
     }
 }
 
